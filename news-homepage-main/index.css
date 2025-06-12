@@ -102,7 +102,7 @@ body {
 } */
 
 .side-card {
-  background-color: #000;
+  background-color: #0c1125;
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -110,6 +110,43 @@ body {
   align-content: start;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
+
+/* .word{
+    color: rgb(187, 102, 41);
+} */
+
+.side-card-header {
+  color: rgb(187, 102, 41);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.new-article {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.new-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.new-description {
+  margin: 0;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.new-divider {
+  width: 80%;
+  border: 0;
+  border-top: 1px solid #999;
+  margin-top: 10px;
+}
+
 
 .paragarph {
   display: flex;
