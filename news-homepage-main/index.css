@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* height: 100vh; */
+  display: grid;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #fefcfc;
+  color: rgb(10, 10, 10);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.brand {
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: end;
+  gap: 30px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: rgb(118, 117, 117);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 18px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.main-card {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.headline {
+  font-size: 31px;
+  margin: 0;
+}
+
+.subtext {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.side-card {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  align-content: start;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.read-more-button{
+    background-color: #ea0b03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 19px;
+    margin-top: 1px;
+    margin-left: 390px;
+}
+
+.button{
+    margin-bottom: 25px;
+}
+
+/* .text-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+} */
+
